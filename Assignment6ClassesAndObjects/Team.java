@@ -1,10 +1,13 @@
 package com.zoho;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Team {
 	public String teamName;
 	public String city;
 	public String division;
-	
+	List<Player> playerList = new ArrayList<>();
 	
 	
 	public Team(String teamName, String city, String division) {
@@ -37,6 +40,9 @@ public class Team {
 	}
 	public void hireCoach() {
 		System.out.println("Coach is hired for the team "+teamName);
+	}
+	public void addPlayer(Player player) {
+		playerList.add(player);
 	}
 	
 }
