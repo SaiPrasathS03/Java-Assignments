@@ -1,5 +1,5 @@
 import java.util.*;
-public class Main
+public class AddAndAccessLL
 {
 	public static void main(String[] args) {
 	    /*LinkedList:
